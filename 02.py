@@ -25,4 +25,5 @@ for number in range_1:
     print number
 
 for line in lines:
+    print line.split(',')
     print line

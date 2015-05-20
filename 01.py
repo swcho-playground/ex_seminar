@@ -1,17 +1,22 @@
 # -*- coding: utf-8 -*-
 __author__ = 'sungwoo'
 
-tuple = (1, 2)
+tuple1 = (1, 2)
+print type(tuple1)
+
 list = [1, 2]
+
+print type(list)
 dict = {
     'name': 'sungwoo',
     'age': '20'
 }
+print type(dict)
 
-x, y = tuple
+x, y = tuple1
 
 print "Start out"
-print tuple
+print tuple1
 print x
 print y
 print dict
