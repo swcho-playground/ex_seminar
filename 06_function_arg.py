@@ -35,4 +35,23 @@ tree = {
         }
     }
 }
-print extract(tree)
+# print extract(tree)
+
+def print_tree(arg_tree):
+    # print tree
+    for k in sorted(arg_tree.keys()):
+        print k
+        if arg_tree[k]:
+            print_tree(arg_tree[k])
+
+print_tree(tree)
+
+array = [1,2,3,4,5]
+
+# def pop_and_print(arg_array):
+#     print arg_array.pop()
+#     if len(arg_array):
+#         pop_and_print(arg_array)
+#
+# pop_and_print(array)
+
