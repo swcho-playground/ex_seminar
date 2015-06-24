@@ -25,6 +25,6 @@ with open('sample.txt', 'rt') as f:
     data = f.read()
     print data
 
-if False:
+if True:
     print 'hello 1'
 print 'hello 2'

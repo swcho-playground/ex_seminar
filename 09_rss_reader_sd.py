@@ -1,5 +1,7 @@
 __author__ = 'sdlee'
 
+#https://github.com/mecataumk2/python_seminar/blob/master/07_HW_RSSreader.py
+
 # import feedparser
 #
 # my_rss_url = "http://blog.rss.naver.com/darkan84.xml"

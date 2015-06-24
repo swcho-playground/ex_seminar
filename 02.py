@@ -21,8 +21,11 @@ range_1 = range(100, 105)
 print type(range_1)
 print range_1
 
-for number in range_1:
-    print number
+for idx in range_1:
+    print idx
+
+for idx in range(0, 10):
+    print idx
 
 for line in lines:
     print line.split(',')

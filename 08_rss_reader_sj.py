@@ -3,6 +3,8 @@ __author__ = 'Sangjin'
 
 '''x-windows-949 에러시 PyCharm Settings - File Editor - File Encoding 에서 UTF-8로 모두 변경'''
 
+# https://github.com/dostroke/HW/blob/master/rss
+
 import urllib2  # URL을 받아오기 위해 urllib2 라이브러리 Import
 import os.path  # 파일 검사를 위해 os 라이브러리 Import
 
